@@ -31,5 +31,9 @@ jobs:
         fi
 
     - name: Build
-      run: make all
+      run: |
+        env
+        pwd
+        make all
+        
 
